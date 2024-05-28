@@ -58,4 +58,4 @@ form.addEventListener('submit', (event) => {
   formData.email = '';
   formData.message = '';
   form.reset(); // Очистка полів форми
-});
+}); 
