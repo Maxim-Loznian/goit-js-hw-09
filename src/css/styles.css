@@ -23,7 +23,40 @@ body {
   object-fit: cover;
 }
 
-.gallery-link {
-  display: block;
-  text-decoration: none;
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Відстань між елементами */
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Відстань між надписом і інпутом */
+}
+
+.feedback-form label input[type='email'],
+.feedback-form label textarea {
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+}
+
+.feedback-form label textarea {
+  height: 80px;
+}
+
+.feedback-form button {
+  margin-top: 16px; /* Відстань між кнопкою і останнім полем */
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background: #6c8cff;
 }
